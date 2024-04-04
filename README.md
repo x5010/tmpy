@@ -15,14 +15,7 @@ This Python program computes the factorial of a given non-negative integer using
 3. Enter a non-negative integer when prompted.
 4. The program will compute the factorial of the input number and display the result.
 
-### Example
-
-```bash
-$ python3 tm.py
-Enter a number for which you want to compute the factorial: 5
-The factorial of 5 is 120
-# tmpy```
- 
+### Algorithm
 
 Let's break down how the Turing machine computes the factorial step by step:
 
@@ -64,3 +57,10 @@ Result:
 
 The factorial of the number 5, which is 120, is computed and stored on the output tape.
 Thus, the Turing machine sequentially multiplies the current factorial value by the current loop value until it reaches the final value n. Each iteration updates the factorial value on the output tape by applying the next number in the sequence.
+
+## Example
+
+```bash
+$ python3 tm.py
+Enter a number for which you want to compute the factorial: 5
+The factorial of 5 is 120'
