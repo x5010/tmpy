@@ -21,8 +21,8 @@ This Python program computes the factorial of a given non-negative integer using
 $ python3 tm.py
 Enter a number for which you want to compute the factorial: 5
 The factorial of 5 is 120
-# tmpy
-
+# tmpy```
+ 
 
 Let's break down how the Turing machine computes the factorial step by step:
 
